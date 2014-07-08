@@ -1,0 +1,88 @@
+body{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	background:#f2f2f2;
+}
+pre{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:10px;
+	margin:0px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+a{
+	text-decoration:none;	
+}
+a.download-link{
+	font-size:20px;
+	text-decoration:none;
+	color:#F60;
+	font-style:italic;
+}
+#copyright{
+	margin-top:20px;
+	text-align:center;
+	width:100%;	
+	color:#999;
+	font-size:11px;
+}
+#Banner{
+	width:800px;
+	margin:30px auto;
+	text-align:center;
+	font-size:40px;
+	color:#9C3;
+	text-shadow: 1px 1px #fff, -1px -1px #666;
+}
+#OrtaSayfa{
+	border-radius:5px;
+	border:1px solid #CCC;
+	width:800px;
+	margin:0px auto;
+	margin-bottom:30px;
+	/*margin-top:100px;*/
+	background:#fff;
+	padding:20px;
+	
+}
+.ekr-tabmenu-tabs ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;	
+}
+.ekr-tabmenu-tabs ul li{
+	border:1px solid #ccc;
+	border-bottom:none;
+	border-radius:5px 5px 0px 0px;
+	display:inline-block;
+	float:left;
+	padding:5px 10px;
+	margin-right:2px;
+	cursor:pointer;
+}
+.ekr-tabmenu-tabs ul li:last-child{
+	float:none;
+}
+.ekr-tabmenu-tabs ul li:active,
+.ekr-tabmenu-tabs ul li:hover{
+	background:#f2f2f2	
+}
+.ekr-tabmenu-tabs ul li.active{
+    background:#e2e2e2;
+    margin-top:-2px;
+    border-bottom:2px solid #ccc;
+}
+.ekr-tabmenu-content{
+	background:#f2f2f2;	
+	border:1px solid #ccc;
+	border-radius:0px 5px 5px 5px;
+	padding:10px;
+}
+.ekr-tabmenu-page{
+	display:none;	
+}
+.ekr-tabmenu-page.active{
+	display:block;	
+}
