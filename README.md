@@ -1,4 +1,4 @@
 JqueryTabMenu
 =============
 
-Jquery ile tab menü çalışması.
+Jquery kullanarak basit tab menü.
